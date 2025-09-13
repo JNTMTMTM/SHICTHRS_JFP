@@ -38,8 +38,6 @@ class SAC_JFP(QMainWindow , Ui_SAC_JFP):
         self.pbtn_update_jfp.clicked.connect(partial(res_pbtn_update_jfp , self))
 
 
-
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
