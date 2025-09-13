@@ -1,1 +1,0 @@
-pyside6-uic sac_jfp_ui.ui -o sac_jfp_ui.py
