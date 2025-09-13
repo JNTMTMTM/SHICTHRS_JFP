@@ -14,6 +14,7 @@ from functools import partial
 from ui.sac_jfp_ui import Ui_SAC_JFP
 from response.res_pbtn_read_json import res_pbtn_read_json
 from response.res_pbtn_add_jfp import res_pbtn_add_jfp
+from response.res_pbtn_update_jfp import res_pbtn_update_jfp
 
 import sys
 import os
@@ -34,7 +35,7 @@ class SAC_JFP(QMainWindow , Ui_SAC_JFP):
     def __slot__(self):
         self.pbtn_read_json.clicked.connect(partial(res_pbtn_read_json , self))
         self.pbtn_add_jfp.clicked.connect(partial(res_pbtn_add_jfp , self))
-        # self.pbtn_update_jfp.clicked.connect(partial(self.update_jfp , self))
+        self.pbtn_update_jfp.clicked.connect(partial(res_pbtn_update_jfp , self))
 
 
 

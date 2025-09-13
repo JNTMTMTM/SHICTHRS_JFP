@@ -6,6 +6,9 @@ from copy import deepcopy
 
 def write_json_file(data : dict , path : str) -> None:
     # 获取写入的指纹
+    if 'sac_jfp' in data.keys():
+        del data['sac_jfp']
+        
     fingerprint = json_fingerprint.create(
                 input = json.dumps(data),
                 hash_function = hash_functions.SHA256,
