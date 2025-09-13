@@ -1,7 +1,7 @@
-# SHICTHRS SAC_PROJECT V2
+# SHICTHRS SAC_JFP
 
 ## 项目简介
-SHICTHRS SAC_PROJECT V2 是一个基于 PySide6 开发的桌面应用程序，主要用于处理 JSON 文件的操作和管理。项目由 SHICTHRS 团队开发，立项时间为 2025 年 9 月 9 日。
+SHICTHRS SAC_JFP 是一个基于 PySide6 开发的桌面应用程序，主要用于处理 JSON 文件的加密。项目由 SHICTHRS 团队开发，立项时间为 2025 年 9 月 13 日。
 
 ## 功能说明
 1. **读取 JSON 文件**：支持从本地文件系统中读取 JSON 文件并解析其内容。
@@ -26,5 +26,5 @@ SHICTHRS SAC_PROJECT V2 是一个基于 PySide6 开发的桌面应用程序，�
    ```
 2. 通过图形界面操作 JSON 文件。
 
-## 许可证
+## 版权
 © 2025-2026 SHICTHRS, Std. All rights reserved.
