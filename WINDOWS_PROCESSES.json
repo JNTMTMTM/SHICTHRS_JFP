@@ -98,5 +98,6 @@
         "XboxGameCallableUI.exe",
         "XboxPcAppFT.exe",
         "XboxNetApiSvc.exe"
-    ]
+    ],
+    "sac_jfp": "e9a7c05b783a8e659d521424dfda638a4b1fcc5923ab7b4e2e340c724daaa38d"
 }

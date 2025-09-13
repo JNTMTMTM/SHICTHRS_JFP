@@ -16,6 +16,7 @@ def res_pbtn_read_json(self):
             self.pbtn_update_jfp.setEnabled(True)
 
             self.lb_stu.setText("已选择文件 : " + os.path.basename(self.file_path))
+
         except:
             QMessageBox.warning(self , 'SAC_JFP 警告' , f'读取json文件时发生错误。\n文件路径 : {self.file_path}')
     
