@@ -1,3 +1,13 @@
+# # -*- coding: utf-8 -*-
+
+# SHICTHRS SAC_JFP
+# 立项时间 20250913
+# 开发人员 : 鸡哥
+
+# © 2025-2026 SHICTHRS, Std. All rights reserved.
+
+# 算法诠释一切 质疑即是认可
+# Algorithms = rule ; Questioning = approval
 
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
