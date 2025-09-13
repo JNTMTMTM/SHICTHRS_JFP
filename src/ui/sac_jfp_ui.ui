@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>SHICTHRS SAC-JFP加密工具</string>
+   <string>SAC-JFP加密调试工具</string>
   </property>
   <widget class="QPushButton" name="pbtn_read_json">
    <property name="geometry">
