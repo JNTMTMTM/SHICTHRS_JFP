@@ -27,6 +27,7 @@ class SAC_JFP(QMainWindow , Ui_SAC_JFP):
         self.__slot__()
 
         self.file_path : str = ''
+        self.file_data : dict = {}
 
         self.show()
 
